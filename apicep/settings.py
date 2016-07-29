@@ -1,5 +1,5 @@
 """
-Django settings for scaffold project.
+Django settings for apicep project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.8/topics/settings/
@@ -41,7 +41,7 @@ INSTALLED_APPS = (
     'cspreports',
     'djangae.contrib.gauth.datastore',
     'djangae.contrib.security',
-    'scaffold',
+    'apicep',
     # 'djangae.contrib.uniquetool',
 )
 
@@ -92,9 +92,9 @@ CSP_REPORTS_LOG_LEVEL = 'warning'
 CSP_REPORTS_SAVE = True
 CSP_REPORTS_EMAIL_ADMINS = False
 
-ROOT_URLCONF = 'scaffold.urls'
+ROOT_URLCONF = 'apicep.urls'
 
-WSGI_APPLICATION = 'scaffold.wsgi.application'
+WSGI_APPLICATION = 'apicep.wsgi.application'
 
 
 # Internationalization
